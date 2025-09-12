@@ -4,7 +4,7 @@
   "description": "backend for the bookstore app",
   "main": "index.js",
   "scripts": {
-    "dev": " src/server.js"
+    "dev": "nodemon -r dotenv/config --exec node src/server.js"
   },
   "keywords": [
     "bookstore_app"
@@ -15,5 +15,10 @@
   "devDependencies": {
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
   }
 }
