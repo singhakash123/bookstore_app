@@ -1,0 +1,13 @@
+{
+  "name": "bookstore_app",
+  "version": "1.0.0",
+  "description": "backend for the bookstore app",
+  "main": "index.js",
+  "scripts": {
+    "dev": " src/server.js"
+  },
+  "keywords": ["bookstore_app"],
+  "author": "Akash Singh Chauhan",
+  "license": "ISC",
+  "type": "module"
+}
