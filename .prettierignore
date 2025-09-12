@@ -1,0 +1,78 @@
+# -------------------------
+# Core project ignores
+# -------------------------
+node_modules
+dist
+build
+coverage
+tmp
+temp
+.cache
+.vscode
+.idea
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Package managers
+# -------------------------
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------
+# Documentation / assets
+# -------------------------
+README.md
+CHANGELOG.md
+docs/
+public/
+static/
+assets/
+uploads/
+
+# -------------------------
+# Compiled / bundled code
+# -------------------------
+*.min.js
+*.bundle.js
+*.map
+
+# -------------------------
+# Swagger & API docs
+# -------------------------
+swagger.json
+swagger.yaml
+openapi.json
+openapi.yaml
+
+# -------------------------
+# Configs (keep human formatting)
+# -------------------------
+*.config.js
+*.config.cjs
+*.config.mjs
+*.config.ts
+*.conf
+*.ini
+# -------------------------
+# JSON data / seeds
+# -------------------------
+*.json
+!package.json
+!tsconfig.json
