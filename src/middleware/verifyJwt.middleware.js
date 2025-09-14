@@ -25,4 +25,5 @@ export const verifyAccessToken = asyncHandler(async function (req, res, next) {
   // 4️⃣ Attach user to request for next middlewares/controllers
   req.user = user;
   next();
+  
 });
